@@ -1,0 +1,1 @@
+{"preferences":{"maxCards":["2","1"],"font":["Calibri","16px"],"theme":"assets/Themes/darkMode.css"},"deckList":[{"name":"Deck 1","desc":"A_description_that_should overflow if I do this correctly","colors":["green","rgba(102,23,43)"],"cards":[["Adventurer","Standard"],["Bureaucrat","Standard"],["Cellar","Standard"],["Chancellor","Standard"]]}]}

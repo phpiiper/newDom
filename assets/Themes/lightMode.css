@@ -1,0 +1,41 @@
+/* icons */
+body .material-symbols-outlined {background-color: white; color: black;}
+body .material-symbols-outlined:hover {color: rgba(var(--c1));}
+
+
+/* toast */
+#toast {background-color: white; color: black;}
+
+/* main layout */
+#cardLibrary {background-color: white}
+#cardLibrary .material-symbols-outlined {background-color: transparent !important;}
+#clMenu label {background-color: transparent;}
+#clMenu input {border-color: transparent; background-color: white; border-right: 4px solid black;}
+#selectedCards {background-color: rgba(244,244,244);}
+#scMenu .material-symbols-outlined {background-color: rgba(100,100,100,0.4) !important;}
+    #scMenu .material-symbols-outlined:after {}
+#selectedCards .card {background-color: transparent; border: none;}
+
+/*edition*/
+.editionB {background-color: rgba(244,244,244);}
+
+/*cards*/
+.card {background-color: white; color: black;}
+
+
+/* filterpage */
+#filterPage {background-color: white;}
+#filterHeader div:last-child span {background-color: transparent !important; border-radius: 1em; padding: 0.1em;}
+.filterOption:hover {background-color: rgba(244,244,244) !important; border-color: transparent;}
+.filterContainer .selectedFilter {background-color: white !important; color: black !important; border: 2px solid black;}
+.filterReset span {color: black; background-color: transparent !important;}
+#filterFooter button {background-color: white; color: black; border: 2px solid black;}
+#filterFooter button:hover {border-radius: 1em; background-color: rgba(244,244,244);}
+
+/*options page*/
+#optionsPage {background-color: rgba(245,245,245);}
+.opdH { border-bottom-color: black;}
+.opCCO:hover {background-color: rgba(243,243,243); border-color: rgba(240,240,240);}
+.opCCO#selectedOpLibrary {background-color: rgba(0,0,0,0.5) !important; color: rgba(230,230,230) !important;}
+.opCCO#selectedOpDeck {background-color: rgba(0,0,0,0.5) !important; color: rgba(230,230,230) !important;}
+#oInpTX {color: white;}

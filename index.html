@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title id="pageTitle">Dominion Card Picker V2</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Lato&family=Montserrat&family=Noto+Sans&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link id="mainCss" rel="stylesheet" href="style.css">
+	<link id="prefCss" rel="stylesheet" href="prefs.css">
+	<script src="data.js"></script>
+	<script src="elements.js"></script>
+  	<script src="script.js" defer></script>
+
+	<style id="customStyle">
+	/*	div {background-color: red;}	*/
+	</style>
+</head>
+<body>
+<div id="content" data-id="Default">
+	<div id="mainBody">
+<div id="cardLibrary" class="mainContainer scrollBar">
+	<div id="clBody" class="cSize3"></div>
+	<div id="clMenu">
+		<label for="searchBar"><span class="material-symbols-outlined" style="background-color: rgba(var(--c5))">search</span></label>
+		<input id="searchBar" placeholder="Search" onkeyup="searchTerm()">
+		<div><span class="material-symbols-outlined" style="background-color: rgba(var(--c5))"
+			onclick="filterPage('content')"
+		>filter_alt</span></div>
+		<div><span class="material-symbols-outlined" style="background-color: rgba(var(--c5))" onclick="optionsPage('content')">settings</span></div>
+		
+	</div>
+</div>
+<div id="selectedCards" class="mainContainer">
+	<div id="scBody" class="cSize5"></div>
+	<div id="scMenu">
+		<div><span class="material-symbols-outlined"  data-text="Save Deck" style="background-color: rgba(var(--c5))" onclick="addDeckDiv('content')">save</span></div>
+		<div><span class="material-symbols-outlined" data-text="Open Menu"  style="background-color: rgba(var(--c5))" onclick="sdPage('content')">menu</span></div>
+		
+	</div>
+</div>
+	
+	
+	</div>
+	<div id="toast"></div>
+</div> <!-- content !-->
+  </body>
+</html>

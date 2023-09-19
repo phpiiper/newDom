@@ -10,7 +10,7 @@ div {position: relative; box-sizing: border-box; font-size: 18px; font-family: "
 .SVGD {background-repeat: no-repeat; background-size: contain; background-position: center;
 
 }
-    body .material-symbols-outlined {background-color: pink; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: 0.2s;}
+    body .material-symbols-outlined {background-color: pink; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: 0.2s; user-select: none;}
         body .material-symbols-outlined:hover {color: white;}
 
 :root {
